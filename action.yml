@@ -1,0 +1,7 @@
+name: "A docker action"
+
+description: 'Simply running a bash command and showing the time executed'
+
+runs:
+  using: "docker"
+  main: "dockerfile"

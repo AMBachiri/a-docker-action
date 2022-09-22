@@ -1,0 +1,14 @@
+name: A simple docker action workflow
+
+one:
+  issues:
+    types: [opened, edited, labeled]
+
+jobs:
+  user-and-time:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Running a simple bash script
+        uses: ambachiri/a-docker-action@main
+
+
