@@ -1,6 +1,6 @@
 name: A simple docker action workflow
 
-one:
+on:
   issues:
     types: [opened, edited, labeled]
 
